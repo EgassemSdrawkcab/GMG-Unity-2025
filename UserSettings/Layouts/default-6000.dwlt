@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: 1440
     y: 43
     width: 1440
     height: 817
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 20
+  controlID: 608
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 21
+  controlID: 43
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 22
+  controlID: 44
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GridPaintPaletteWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -274,14 +274,14 @@ MonoBehaviour:
     y: 0
     width: 291
     height: 761
-  m_MinSize: {x: 357, y: 226}
+  m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 21}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 43
+    y: 0
     width: 1440
     height: 36
   m_SerializedDataModeController:
@@ -694,8 +694,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1149
-    y: 79
+    x: 1150
+    y: 24
     width: 290
     height: 735
   m_SerializedDataModeController:
@@ -717,7 +717,7 @@ MonoBehaviour:
     m_CachedPref: 246
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1364
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -746,7 +746,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 260
     height: 449
   m_SerializedDataModeController:
@@ -765,13 +765,12 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: -1354
+      m_SelectedIDs: []
       m_LastClickedID:
-        m_Data: -1354
+        m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -6602
       - m_Data: -1354
+      - m_Data: 35718
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -856,8 +855,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 261
-    y: 79
+    x: 262
+    y: 24
     width: 886
     height: 449
   m_SerializedDataModeController:
@@ -1444,9 +1443,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.77398247, y: -4.949792, z: 0.03223981}
+    m_Target: {x: 12.122815, y: -4.3273287, z: -213.04753}
     speed: 2
-    m_Value: {x: -0.77398247, y: -4.949792, z: 0.03223981}
+    m_Value: {x: 12.122815, y: -4.3273287, z: -213.04753}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1496,9 +1495,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.306128
+    m_Target: 1.4283264
     speed: 2
-    m_Value: 9.306128
+    m_Value: 1.4283264
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1553,7 +1552,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 261
+    x: 1701
     y: 79
     width: 886
     height: 449
@@ -1657,7 +1656,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 554
+    y: 499
     width: 1148
     height: 260
   m_SerializedDataModeController:
@@ -1684,7 +1683,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Art/Sidescroller
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1694,30 +1693,27 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Art/Sidescroller
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\nkkelly\Documents\GitHub\GMG-Unity-2025
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 272}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 37222
+    - m_Data: 35982
     m_LastClickedID:
-      m_Data: 37222
+      m_Data: 35982
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 35818
-    - m_Data: 37216
-    - m_Data: 37222
-    - m_Data: 37278
-    - m_Data: 37286
-    - m_Data: 37712
-    - m_Data: 37718
-    - m_Data: 37822
-    - m_Data: 1000000000
-    - m_Data: 2147483647
+    - m_Data: 36048
+    - m_Data: 36050
+    - m_Data: 36052
+    - m_Data: 36054
+    - m_Data: 36056
+    - m_Data: 36058
+    - m_Data: 36060
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1735,7 +1731,7 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1750,7 +1746,13 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 35818
+    - m_Data: 36048
+    - m_Data: 36050
+    - m_Data: 36052
+    - m_Data: 36054
+    - m_Data: 36056
+    - m_Data: 36058
+    - m_Data: 36060
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1870,7 +1872,7 @@ MonoBehaviour:
     m_TextWithWhitespace: "Tile Palette\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1149
+    x: 2589
     y: 79
     width: 290
     height: 735
